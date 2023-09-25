@@ -998,6 +998,13 @@ a {
     top: 13px;
     left: 0;
   }
+  img {
+    position: absolute;
+    width: 20px;
+    color: #979797;
+    top: 10px;
+    left: 0;
+  }
   input {
     height: 50px;
     border: none;
@@ -1036,6 +1043,10 @@ a {
   margin-top: 3rem;
   .btn_2 {
     margin-right: 5px;
+    &:hover {
+      color: #000;
+      border-color: black;
+    }
   }
   .btn_3 {
     margin-left: 5px;
@@ -1091,6 +1102,10 @@ a {
 .reset_input_btn_div {
   margin-top: 3rem;
   .btn_2 {
+    &:hover {
+      color: #000;
+      border-color: black;
+    }
     margin-right: 5px;
   }
   .btn_3 {
@@ -1098,3 +1113,271 @@ a {
   }
 }
 // reset password end
+// my Account
+.my_account_input_div {
+  .form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #979797;
+    outline: 0;
+    box-shadow: none;
+  }
+  position: relative;
+  input {
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #979797;
+    border-radius: 0;
+    color: #979797 !important;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    margin-bottom: 1.5rem;
+    &::placeholder {
+      color: #979797;
+      font-family: Poppins;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0.4px;
+    }
+  }
+  a {
+    position: absolute;
+    top: 16px;
+    right: 0;
+    color: #b2674c;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    transition: all 0.3s ease-in-out;
+  }
+  .pas_input {
+    padding-right: 11rem;
+  }
+}
+.my_account_input_btn_div {
+  text-align: start;
+  .btn_2 {
+    margin-right: 5px;
+    &:hover {
+      color: #000;
+      border-color: black;
+    }
+  }
+  .btn_3 {
+    margin-left: 5px;
+  }
+}
+.my_account_title_div {
+  position: relative;
+  text-align: start;
+  .btn_3 {
+    background-color: transparent;
+    position: absolute;
+    top: 8px;
+    right: 0;
+    &:hover {
+      background-color: #191613;
+    }
+  }
+}
+.my_account_readonly {
+  .form-control:focus {
+    color: #212529;
+    background-color: #e9ecef;
+    border-color: #979797;
+    outline: 0;
+    box-shadow: none;
+  }
+}
+// my Account end
+// create new account
+.create_new_account_title_div {
+  text-align: start;
+}
+.my_check {
+  color: #616161;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  a {
+    color: #b2674c;
+  }
+}
+// create new account end
+// logon
+.login_img {
+  @include bg_img;
+  width: 100%;
+  height: 34rem;
+}
+.login_top_div {
+  padding: 3rem;
+  h2 {
+    color: #191613;
+    font-family: Minion Pro;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 84px; /* 150% */
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+  }
+  .forgot_input_div {
+    i {
+      left: auto;
+    }
+  }
+  .login_eye {
+    i {
+      position: absolute;
+      font-size: 22px;
+      color: #979797;
+      top: 20px;
+      right: 0;
+      cursor: pointer;
+    }
+  }
+}
+// logon end
+// contact
+.contact_info_div {
+  position: relative;
+}
+.contact_info_img {
+  @include bg_img;
+  width: 100%;
+  height: auto;
+}
+.contact_info_text {
+  text-align: center;
+  h2 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 125% */
+    letter-spacing: 1.44px;
+    text-transform: uppercase;
+  }
+  p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 130% */
+    letter-spacing: 0.4px;
+  }
+  hr {
+    opacity: 1;
+    background-color: #191613;
+  }
+}
+.contact_info_inner_div {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  padding: 0 8rem;
+}
+.contact_partners_div {
+  .patner_div {
+    padding-top: 0;
+  }
+}
+// contact end
+// page top banner
+.page_top_banner_div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .page_top_banner_img {
+    @include bg_img;
+    width: 100%;
+    height: auto;
+  }
+}
+.page_top_banner_text {
+  position: absolute;
+  top: auto;
+  text-align: center;
+  margin: 0 18rem;
+  h1 {
+    color: #fff;
+    text-align: center;
+    font-family: Minion Pro;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 85px; /* 151.786% */
+    text-transform: uppercase;
+    span {
+      border: 1px solid white;
+      padding: 0 27px;
+      border-radius: 25px;
+    }
+  }
+  img {
+    width: 89px;
+    height: 50px;
+  }
+}
+.faq_text_div {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.faq_text_card_div {
+  position: relative;
+  padding-left: 48px;
+  h2 {
+    color: #191613;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 166.667% */
+    letter-spacing: 1.08px;
+    text-transform: uppercase;
+  }
+  p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 200% */
+    letter-spacing: 0.3px;
+    margin-bottom: 0;
+  }
+  hr {
+    opacity: 1;
+    margin-top: 3rem;
+    color: #191613;
+  }
+  span {
+    color: rgba(0, 0, 0, 0.12);
+    text-align: center;
+    font-family: Minion Pro;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 85px; /* 132.813% */
+    text-transform: uppercase;
+    position: absolute;
+    top: -40px;
+    left: 0;
+  }
+}
+// page top banner end

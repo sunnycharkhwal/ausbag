@@ -1026,6 +1026,13 @@ a {
   top: 13px;
   left: 0;
 }
+.forgot_input_div img {
+  position: absolute;
+  width: 20px;
+  color: #979797;
+  top: 10px;
+  left: 0;
+}
 .forgot_input_div input {
   height: 50px;
   border: none;
@@ -1074,6 +1081,10 @@ a {
 }
 .forgot_input_btn_div .btn_2 {
   margin-right: 5px;
+}
+.forgot_input_btn_div .btn_2:hover {
+  color: #000;
+  border-color: black;
 }
 .forgot_input_btn_div .btn_3 {
   margin-left: 5px;
@@ -1140,6 +1151,292 @@ a {
 .reset_input_btn_div .btn_2 {
   margin-right: 5px;
 }
+.reset_input_btn_div .btn_2:hover {
+  color: #000;
+  border-color: black;
+}
 .reset_input_btn_div .btn_3 {
   margin-left: 5px;
+}
+
+.my_account_input_div {
+  position: relative;
+}
+.my_account_input_div .form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #979797;
+  outline: 0;
+  box-shadow: none;
+}
+.my_account_input_div input {
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid #979797;
+  border-radius: 0;
+  color: #979797 !important;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  margin-bottom: 1.5rem;
+}
+.my_account_input_div input::-moz-placeholder {
+  color: #979797;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.4px;
+}
+.my_account_input_div input::placeholder {
+  color: #979797;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.4px;
+}
+.my_account_input_div a {
+  position: absolute;
+  top: 16px;
+  right: 0;
+  color: #b2674c;
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  transition: all 0.3s ease-in-out;
+}
+.my_account_input_div .pas_input {
+  padding-right: 11rem;
+}
+
+.my_account_input_btn_div {
+  text-align: start;
+}
+.my_account_input_btn_div .btn_2 {
+  margin-right: 5px;
+}
+.my_account_input_btn_div .btn_2:hover {
+  color: #000;
+  border-color: black;
+}
+.my_account_input_btn_div .btn_3 {
+  margin-left: 5px;
+}
+
+.my_account_title_div {
+  position: relative;
+  text-align: start;
+}
+.my_account_title_div .btn_3 {
+  background-color: transparent;
+  position: absolute;
+  top: 8px;
+  right: 0;
+}
+.my_account_title_div .btn_3:hover {
+  background-color: #191613;
+}
+
+.my_account_readonly .form-control:focus {
+  color: #212529;
+  background-color: #e9ecef;
+  border-color: #979797;
+  outline: 0;
+  box-shadow: none;
+}
+
+.create_new_account_title_div {
+  text-align: start;
+}
+
+.my_check {
+  color: #616161;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.4px;
+}
+.my_check a {
+  color: #b2674c;
+}
+
+.login_img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 34rem;
+}
+
+.login_top_div {
+  padding: 3rem;
+}
+.login_top_div h2 {
+  color: #191613;
+  font-family: Minion Pro;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 84px; /* 150% */
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+.login_top_div .forgot_input_div i {
+  left: auto;
+}
+.login_top_div .login_eye i {
+  position: absolute;
+  font-size: 22px;
+  color: #979797;
+  top: 20px;
+  right: 0;
+  cursor: pointer;
+}
+
+.contact_info_div {
+  position: relative;
+}
+
+.contact_info_img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: auto;
+}
+
+.contact_info_text {
+  text-align: center;
+}
+.contact_info_text h2 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 125% */
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+}
+.contact_info_text p {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 130% */
+  letter-spacing: 0.4px;
+}
+.contact_info_text hr {
+  opacity: 1;
+  background-color: #191613;
+}
+
+.contact_info_inner_div {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  padding: 0 8rem;
+}
+
+.contact_partners_div .patner_div {
+  padding-top: 0;
+}
+
+.page_top_banner_div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page_top_banner_div .page_top_banner_img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: auto;
+}
+
+.page_top_banner_text {
+  position: absolute;
+  top: auto;
+  text-align: center;
+  margin: 0 18rem;
+}
+.page_top_banner_text h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Minion Pro;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 85px; /* 151.786% */
+  text-transform: uppercase;
+}
+.page_top_banner_text h1 span {
+  border: 1px solid white;
+  padding: 0 27px;
+  border-radius: 25px;
+}
+.page_top_banner_text img {
+  width: 89px;
+  height: 50px;
+}
+
+.faq_text_div {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.faq_text_card_div {
+  position: relative;
+  padding-left: 48px;
+}
+.faq_text_card_div h2 {
+  color: #191613;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 1.08px;
+  text-transform: uppercase;
+}
+.faq_text_card_div p {
+  color: #000;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 200% */
+  letter-spacing: 0.3px;
+  margin-bottom: 0;
+}
+.faq_text_card_div hr {
+  opacity: 1;
+  margin-top: 3rem;
+  color: #191613;
+}
+.faq_text_card_div span {
+  color: rgba(0, 0, 0, 0.12);
+  text-align: center;
+  font-family: Minion Pro;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 85px; /* 132.813% */
+  text-transform: uppercase;
+  position: absolute;
+  top: -40px;
+  left: 0;
 }/*# sourceMappingURL=index.css.map */

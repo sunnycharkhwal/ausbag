@@ -1,6 +1,110 @@
 @import "--var.scss";
 @import "--mixing.scss";
 @media (max-width: 576px) {
+  .faq_text_div {
+    padding-top: 6rem;
+    padding-bottom: 0rem;
+  }
+  .faq_text_card_div {
+    margin-bottom: 4rem;
+    h2 {
+      font-size: 15px;
+    }
+    p {
+      font-size: 13px;
+    }
+    hr {
+      margin-top: 2rem;
+    }
+  }
+  .page_top_banner_div {
+    .page_top_banner_img {
+      height: 17rem;
+    }
+  }
+  .page_top_banner_text {
+    h1 {
+      font-size: 30px;
+      line-height: 55px;
+    }
+  }
+  .page_top_banner_text {
+    margin: 1rem;
+  }
+  .patner_div {
+    padding: 3rem 0;
+  }
+  .contact_partners_div .patner_div {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .contact_info_text {
+    hr {
+      display: none;
+    }
+  }
+  .contact_info_img {
+    display: none;
+  }
+  .contact_info_inner_div {
+    background-color: #fffdf8;
+    padding: 10px;
+    position: relative;
+  }
+  .login_top_div {
+    padding: 10px;
+    .my_check {
+      a {
+        font-size: 14px;
+      }
+    }
+    .forgot_input_div {
+      i {
+        font-size: 18px;
+        top: 17px;
+      }
+      img {
+        width: 18px;
+        top: 13px;
+      }
+      input {
+        &::placeholder {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  .login_img_col {
+    display: none;
+  }
+  .btn_2_m {
+    font-size: 12px;
+  }
+  .create_new_account_title_div {
+    text-align: center;
+  }
+  .my_account_title_div {
+    .btn_3 {
+      top: -2px;
+      padding: 5px 14px;
+    }
+  }
+  .my_account_input_btn_div {
+    text-align: center;
+    .btn_3 {
+      padding: 10px 30px;
+    }
+  }
+  .my_account_input_div {
+    .pas_input {
+      padding-right: 0.75rem;
+    }
+    a {
+      position: relative;
+      top: -10px;
+      font-size: 15px;
+    }
+  }
   .reset_input_btn_div {
     text-align: center;
     .btn_2 {
@@ -282,6 +386,34 @@
   }
 }
 @media (min-width: 768px) {
+  .page_top_banner_div {
+    .page_top_banner_img {
+      height: 17rem;
+    }
+  }
+  .page_top_banner_text {
+    h1 {
+      font-size: 40px;
+      line-height: 60px;
+    }
+  }
+  .page_top_banner_text {
+    margin: 0 3rem;
+  }
+  .contact_info_text {
+    hr {
+      display: none;
+    }
+  }
+  .contact_info_img {
+    height: 26rem;
+  }
+  .contact_info_inner_div {
+    padding: 0 0;
+  }
+  .login_img_col {
+    display: none;
+  }
   .forgot_input_top_div {
     padding: 0 5rem;
   }
@@ -505,6 +637,34 @@
   }
 }
 @media (min-width: 1024px) {
+  .page_top_banner_div {
+    .page_top_banner_img {
+      height: auto;
+    }
+  }
+  .page_top_banner_text {
+    h1 {
+      font-size: 56px;
+      line-height: 85px;
+    }
+  }
+  .page_top_banner_text {
+    margin: 0 10rem;
+  }
+  .contact_info_text {
+    hr {
+      display: block;
+    }
+  }
+  .contact_info_img {
+    height: auto;
+  }
+  .contact_info_inner_div {
+    padding: 0 4rem;
+  }
+  .login_img_col {
+    display: block;
+  }
   .forgot_input_top_div {
     padding: 0 13rem;
   }
@@ -730,6 +890,12 @@
   }
 }
 @media (min-width: 1440px) {
+  .page_top_banner_text {
+    margin: 0 18rem;
+  }
+  .contact_info_inner_div {
+    padding: 0 8rem;
+  }
   .forgot_input_top_div {
     padding: 0 24rem;
   }

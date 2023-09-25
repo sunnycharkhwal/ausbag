@@ -26,8 +26,8 @@
                 </div>
             </div>
             <div class="reset_input_btn_div">
-                <a href="#!" class="btn_2">save</a>
-                <a href="#!" class="btn_3">back</a>
+                <a href="myAccount.php" class="btn_2">save</a>
+                <a href="myAccount.php" class="btn_3">back</a>
             </div>
         </div>
     </div>

@@ -48,16 +48,16 @@
                           <a class="<?php echo basename($_SERVER['PHP_SELF']) == '' ? 'nav-link navbar_nav_activ' : 'nav-link'; ?>" href="#">trems & condition</a>
                       </li>
                       <li>
-                          <a class="<?php echo basename($_SERVER['PHP_SELF']) == '' ? 'nav-link navbar_nav_activ' : 'nav-link'; ?>" href="#">PRIVACY POLICY</a>
+                          <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'privacy_policy.php' ? 'nav-link navbar_nav_activ' : 'nav-link'; ?>" href="privacy_policy.php">PRIVACY POLICY</a>
                       </li>
                       <li>
-                          <a class="<?php echo basename($_SERVER['PHP_SELF']) == '' ? 'nav-link navbar_nav_activ' : 'nav-link'; ?>" href="#">FAQ</a>
+                          <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'faq.php' ? 'nav-link navbar_nav_activ' : 'nav-link'; ?>" href="faq.php">FAQ</a>
                       </li>
                       <li>
                           <a class="<?php echo basename($_SERVER['PHP_SELF']) == '' ? 'nav-link navbar_nav_activ' : 'nav-link'; ?>" href="#">CUSTOM BAGS</a>
                       </li>
                       <li>
-                          <a class="<?php echo basename($_SERVER['PHP_SELF']) == '' ? 'nav-link navbar_nav_activ' : 'nav-link'; ?>" href="#">CONTACT</a>
+                          <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'contact.php' ? 'nav-link navbar_nav_activ' : 'nav-link'; ?>" href="contact.php">CONTACT</a>
                       </li>
                   </ul>
                   <ul class="navbar-nav ms-auto">
@@ -68,12 +68,22 @@
                           </button>
                           <ul class="dropdown-menu fade-up">
                               <li>
-                                  <a class="dropdown-item" href="index.php#it">
+                                  <a class=" <?php echo basename($_SERVER['PHP_SELF']) == 'myAccount.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="myAccount.php">
+                                      <span>my Account</span>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a class=" <?php echo basename($_SERVER['PHP_SELF']) == 'edit_account.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="edit_account.php">
+                                      <span>edit Account</span>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a class=" <?php echo basename($_SERVER['PHP_SELF']) == 'create_new_account.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="create_new_account.php">
                                       <span>Sign up to a New Account</span>
                                   </a>
                               </li>
                               <li>
-                                  <a class=" <?php echo basename($_SERVER['PHP_SELF']) == 'ev_chargers.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="ev_chargers.php">
+                                  <a class=" <?php echo basename($_SERVER['PHP_SELF']) == 'login.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="login.php">
                                       <span>Log in to Existing Account</span>
                                   </a>
                               </li>
