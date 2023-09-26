@@ -1439,4 +1439,72 @@ a {
   position: absolute;
   top: -40px;
   left: 0;
+}
+
+.privacy_policy_text_top {
+  padding: 6rem 0;
+}
+.privacy_policy_text_top .about_inner_text_left_div {
+  text-align: start;
+}
+
+.privacy_policy_accordion_div {
+  background-color: #fffdf8;
+  padding: 6rem 15rem;
+}
+.privacy_policy_accordion_div .accordion-button::after {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+  transform: scale(0.7) !important;
+}
+.privacy_policy_accordion_div .accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+}
+.privacy_policy_accordion_div .accordion-button:focus {
+  z-index: 3;
+  border-color: transparent;
+  outline: 0;
+  box-shadow: none;
+}
+.privacy_policy_accordion_div .accordion-item {
+  background-color: #fffdf8;
+  border-bottom: 1px solid #191613 !important;
+  border: none;
+}
+.privacy_policy_accordion_div .accordion-button:not(.collapsed) {
+  color: black;
+  background-color: #fffdf8;
+  box-shadow: none;
+}
+.privacy_policy_accordion_div .accordion-body {
+  background-color: #fffdf8;
+  padding-bottom: 2.5rem;
+}
+.privacy_policy_accordion_div .accordion-body h3 {
+  color: #191613;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 200% */
+  letter-spacing: 0.3px;
+}
+.privacy_policy_accordion_div .accordion-body li {
+  color: #191613;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 200% */
+  letter-spacing: 0.3px;
+}
+.privacy_policy_accordion_div .accordion-button {
+  background-color: #fffdf8;
+  padding: 1.5rem 1.25rem;
+  color: #191613;
+  font-family: Minion Pro;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.64px;
 }/*# sourceMappingURL=index.css.map */

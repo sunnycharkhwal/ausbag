@@ -42,10 +42,7 @@
                           </ul>
                       </li>
                       <li>
-                          <a class="<?php echo basename($_SERVER['PHP_SELF']) == '' ? 'nav-link navbar_nav_activ' : 'nav-link'; ?>" href="#">trems & condition</a>
-                      </li>
-                      <li>
-                          <a class="<?php echo basename($_SERVER['PHP_SELF']) == '' ? 'nav-link navbar_nav_activ' : 'nav-link'; ?>" href="#">trems & condition</a>
+                          <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'trems_and_condition.php' ? 'nav-link navbar_nav_activ' : 'nav-link'; ?>" href="trems_and_condition.php">trems & condition</a>
                       </li>
                       <li>
                           <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'privacy_policy.php' ? 'nav-link navbar_nav_activ' : 'nav-link'; ?>" href="privacy_policy.php">PRIVACY POLICY</a>

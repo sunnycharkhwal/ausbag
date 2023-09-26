@@ -1,4 +1,21 @@
 @media (max-width: 576px) {
+  .privacy_policy_accordion_div {
+    padding: 1rem 1rem;
+  }
+  .privacy_policy_accordion_div .accordion-button {
+    font-size: 18px;
+  }
+  .privacy_policy_accordion_div .accordion-body {
+    padding-top: 0;
+    padding-bottom: 1rem;
+  }
+  .privacy_policy_text_top {
+    padding: 3rem 0;
+  }
+  .privacy_policy_text_top .about_inner_text_left_div {
+    text-align: center;
+    margin-top: 2rem;
+  }
   .faq_text_div {
     padding-top: 6rem;
     padding-bottom: 0rem;
@@ -350,6 +367,16 @@
   }
 }
 @media (min-width: 768px) {
+  .privacy_policy_accordion_div {
+    padding: 2rem 2rem;
+  }
+  .privacy_policy_text_top {
+    padding: 3rem 0;
+  }
+  .privacy_policy_text_top .about_inner_text_left_div {
+    text-align: center;
+    margin-top: 2rem;
+  }
   .page_top_banner_div .page_top_banner_img {
     height: 17rem;
   }
@@ -581,6 +608,15 @@
   }
 }
 @media (min-width: 1024px) {
+  .privacy_policy_accordion_div {
+    padding: 6rem 6rem;
+  }
+  .privacy_policy_text_top {
+    padding: 6rem 0;
+  }
+  .privacy_policy_text_top .about_inner_text_left_div {
+    text-align: start;
+  }
   .page_top_banner_div .page_top_banner_img {
     height: auto;
   }
@@ -793,6 +829,9 @@
   }
 }
 @media (min-width: 1440px) {
+  .privacy_policy_accordion_div {
+    padding: 6rem 15rem;
+  }
   .page_top_banner_text {
     margin: 0 18rem;
   }
