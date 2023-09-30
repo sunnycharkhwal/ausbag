@@ -1,4 +1,47 @@
 @media (max-width: 576px) {
+  .service_title_div {
+    margin-bottom: 1rem;
+  }
+  .service_title_div h2 {
+    font-size: 25px;
+    line-height: 37px;
+  }
+  .service_title_div h2 br {
+    display: none;
+  }
+  .service_text_box {
+    border-left: 1px solid white;
+    padding: 1.5rem;
+    border-radius: 3px;
+  }
+  .service_text_box h3 {
+    font-size: 18px;
+    line-height: 34px;
+  }
+  .service_text_box p {
+    font-size: 13px;
+    line-height: 24px;
+  }
+  .service_top_div {
+    padding: 1rem 1rem;
+  }
+  .custom_bag_banner_top {
+    background-color: #191613;
+    padding: 10px;
+    padding-bottom: 2rem;
+  }
+  .custom_bag_banner_top img {
+    display: none;
+  }
+  .custom_bag_banner_text {
+    position: relative;
+    padding: 0 0;
+  }
+  .custom_bag_banner_text h2 {
+    font-size: 22px;
+    line-height: 47px;
+    margin-bottom: 1rem;
+  }
   .privacy_policy_accordion_div {
     padding: 1rem 1rem;
   }
@@ -367,6 +410,46 @@
   }
 }
 @media (min-width: 768px) {
+  .service_text_box {
+    border-left: 1px solid white;
+    padding: 1.5rem;
+    border-radius: 3px;
+  }
+  .service_text_box h3 {
+    font-size: 18px;
+    line-height: 34px;
+  }
+  .service_text_box p {
+    font-size: 13px;
+    line-height: 24px;
+  }
+  .service_top_div {
+    padding: 3rem 3rem;
+  }
+  .custom_bag_banner_text {
+    padding: 0 8rem;
+  }
+  .custom_bag_banner_text h2 {
+    font-size: 28px;
+    line-height: 66px;
+    margin-bottom: 1.5rem;
+  }
+  .trems_and_condition_btn_div {
+    overflow: unset;
+    height: auto;
+  }
+  .trems_and_condition_top_div {
+    background-color: #f5eedd;
+    width: 100%;
+    padding: 0;
+  }
+  .trems_and_condition_tab_div {
+    display: block;
+  }
+  .trems_and_condition_tab_div .nav {
+    display: flex;
+    flex-direction: row;
+  }
   .privacy_policy_accordion_div {
     padding: 2rem 2rem;
   }
@@ -608,6 +691,51 @@
   }
 }
 @media (min-width: 1024px) {
+  .service_text_box_1 {
+    border-left: 1px solid white !important;
+  }
+  .service_text_box {
+    border-left: 0px solid white;
+    padding: 1.5rem;
+    border-radius: 0px;
+  }
+  .service_text_box h3 {
+    font-size: 18px;
+    line-height: 34px;
+  }
+  .service_text_box p {
+    font-size: 13px;
+    line-height: 24px;
+  }
+  .service_top_div {
+    padding: 3rem 3rem;
+  }
+  .custom_bag_banner_text {
+    padding: 0 10rem;
+  }
+  .custom_bag_banner_text h2 {
+    font-size: 41px;
+    line-height: 85px;
+    margin-bottom: 2rem;
+  }
+  .trems_and_condition_btn_div {
+    overflow: scroll;
+    height: 54rem;
+  }
+  .trems_and_condition_tab_div {
+    display: flex;
+  }
+  .trems_and_condition_tab_div .nav-link {
+    font-size: 19px;
+  }
+  .trems_and_condition_tab_div .nav {
+    display: block;
+    flex-direction: column;
+  }
+  .trems_and_condition_top_div {
+    width: 45rem;
+    padding: 6rem 2rem;
+  }
   .privacy_policy_accordion_div {
     padding: 6rem 6rem;
   }
@@ -829,6 +957,36 @@
   }
 }
 @media (min-width: 1440px) {
+  .service_text_box {
+    border-left: 0px solid white;
+    padding: 1.5rem;
+  }
+  .service_text_box h3 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .service_text_box p {
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .service_top_div {
+    padding: 7rem 7rem;
+  }
+  .custom_bag_banner_text {
+    padding: 0 17rem;
+  }
+  .custom_bag_banner_text h2 {
+    font-size: 56px;
+    line-height: 85px;
+    margin-bottom: 3rem;
+  }
+  .trems_and_condition_tab_div .nav-link {
+    font-size: 24px;
+  }
+  .trems_and_condition_top_div {
+    width: 45rem;
+    padding: 6rem 6rem;
+  }
   .privacy_policy_accordion_div {
     padding: 6rem 15rem;
   }

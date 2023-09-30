@@ -51,7 +51,7 @@
                           <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'faq.php' ? 'nav-link navbar_nav_activ' : 'nav-link'; ?>" href="faq.php">FAQ</a>
                       </li>
                       <li>
-                          <a class="<?php echo basename($_SERVER['PHP_SELF']) == '' ? 'nav-link navbar_nav_activ' : 'nav-link'; ?>" href="#">CUSTOM BAGS</a>
+                          <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'custom_bags.php' ? 'nav-link navbar_nav_activ' : 'nav-link'; ?>" href="custom_bags.php">CUSTOM BAGS</a>
                       </li>
                       <li>
                           <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'contact.php' ? 'nav-link navbar_nav_activ' : 'nav-link'; ?>" href="contact.php">CONTACT</a>

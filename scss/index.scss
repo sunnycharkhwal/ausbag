@@ -1450,3 +1450,191 @@ a {
   }
 }
 // privacy policy text end
+// trems and condition
+.trems_and_condition_tab_div {
+  display: flex;
+  .nav-pills .nav-link.active,
+  .nav-pills .show > .nav-link {
+    color: #b2674c;
+    // font-family: Poppins;
+    // font-size: 32px;
+    // font-style: normal;
+    // font-weight: 600;
+    // line-height: 80px;
+    // letter-spacing: 0.8px;
+    // text-transform: capitalize;
+    background-color: transparent;
+  }
+  .nav-link {
+    color: #191613;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 80px; /* 333.333% */
+    letter-spacing: 0.6px;
+    text-transform: capitalize;
+    padding: 0;
+    text-align: start;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    &:hover {
+      color: #b2674c;
+    }
+  }
+  .nav {
+    display: block;
+  }
+}
+.trems_and_condition_text_div {
+  padding: 6rem 6rem;
+  overflow: scroll;
+  height: 60rem;
+  h2 {
+    color: #191613;
+    font-family: Minion Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 85px; /* 212.5% */
+    text-transform: uppercase;
+  }
+  ul {
+    li {
+      color: #191613;
+      font-family: Poppins;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px; /* 200% */
+      letter-spacing: 0.3px;
+      margin-bottom: 1rem;
+    }
+  }
+}
+.trems_and_condition_top_div {
+  background-color: #f5eedd;
+  width: 45rem;
+  padding: 6rem 6rem;
+}
+.trems_and_condition_btn_div {
+  overflow: scroll;
+  height: 54rem;
+}
+.trems_and_condition_text_div2 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  h2 {
+    color: #191613;
+    font-family: Minion Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 85px; /* 212.5% */
+    text-transform: uppercase;
+  }
+  ul {
+    li {
+      color: #191613;
+      font-family: Poppins;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px; /* 200% */
+      letter-spacing: 0.3px;
+      margin-bottom: 1rem;
+    }
+  }
+}
+// trems and condition end
+// custom bag
+.custom_bag_banner_top {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    @include bg_img;
+    width: 100%;
+    height: auto;
+  }
+}
+.custom_bag_banner_text {
+  position: absolute;
+  top: auto;
+  text-align: center;
+  padding: 0 17rem;
+  h2 {
+    color: #fffdf8;
+    text-align: center;
+    font-family: Minion Pro;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 85px; /* 151.786% */
+    letter-spacing: 1.4px;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    span {
+      border: 1px solid white;
+      padding: 0 27px;
+      border-radius: 25px;
+      text-transform: capitalize;
+    }
+  }
+}
+.service_top_div {
+  padding: 7rem 7rem;
+  background-color: #fffdf8;
+}
+.service_title_div {
+  text-align: center;
+  margin-bottom: 3rem;
+  h2 {
+    color: #02151c;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px; /* 156.25% */
+    letter-spacing: 1.92px;
+    text-transform: uppercase;
+  }
+}
+.service_inner_div {
+  background-color: #191613;
+  padding: 2rem;
+  border-radius: 6px;
+}
+.service_text_box {
+  border-left: 0px solid white;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  padding: 1.5rem;
+  h3 {
+    color: #fffdf8;
+    font-family: Minion Pro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 141.667% */
+    letter-spacing: 0.6px;
+    text-transform: capitalize;
+  }
+  p {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 200% */
+    letter-spacing: 0.3px;
+    margin-bottom: 0;
+  }
+}
+.service_text_box_1 {
+  border-left: 1px solid white;
+}
+// custom bag end
