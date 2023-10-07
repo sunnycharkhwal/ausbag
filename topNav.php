@@ -12,7 +12,7 @@
             </div>
             <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12 btn_col_div">
                 <div class="top_nav_btn_div">
-                    <a href="#" class="btn_1">GET A QUOTE</a>
+                    <a data-bs-toggle="modal" href="#exampleModalToggle" class="btn_1">GET A QUOTE</a>
                     <a href="tel:+1 1234553423" class="btn_2">CALL NOW</a>
                 </div>
             </div>

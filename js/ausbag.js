@@ -114,8 +114,7 @@ $(".owl-carousels").owlCarousel({
   items: 1,
   loop: true,
   nav: false,
-  dots: false,
-  margin: 10,
+  dots: true,
   autoplay: true,
   smartSpeed: 600,
 });

@@ -28,6 +28,11 @@
                 <div class="col-12">
                     <textarea class="form-control" rows="3" placeholder="Your Message"></textarea>
                 </div>
+                <div class="col-12">
+                    <div class="form_btn_div">
+                        <button class="btn btn_2">submit</button>
+                    </div>
+                </div>
             </div>
         </form>
     </div>

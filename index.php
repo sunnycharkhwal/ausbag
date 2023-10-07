@@ -1,5 +1,5 @@
 <?php include 'header.php'; ?>
-<div>
+<div class="slide_div_index">
     <div class="owl-carousels owl-carousel owl-theme">
         <div class="item">
             <div class="banner_img_div">

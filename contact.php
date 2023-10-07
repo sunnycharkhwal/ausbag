@@ -10,20 +10,24 @@
             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 order-lg-1 order-1 ">
                 <div class="contact_info_text">
                     <h2>TELEPHONE</h2>
-                    <p>1300 AUSBAG (287 224)</p>
+                    <a href="tel:+12 34567890">
+                        <p>+12 34567890</p>
+                    </a>
                 </div>
             </div>
             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 order-lg-2 order-3">
                 <div class="contact_info_text">
                     <h2>LOCATION</h2>
                     <p>Ausbag Pty Ltd, 24 Tower <br> Court, Noble Park, Victoria 3174</p>
-                    <hr>
+
                 </div>
             </div>
             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 order-lg-3 order-2">
                 <div class="contact_info_text">
                     <h2>EMAIL</h2>
-                    <p>sales@ausbag.com.au</p>
+                    <a href="mailto:sales@ausbag.com.au">
+                        <p>sales@ausbag.com.au</p>
+                    </a>
                 </div>
             </div>
         </div>
