@@ -109,6 +109,87 @@ a {
   margin: auto;
 }
 
+.my_dropdown_products .dropdown-menu {
+  padding: 0;
+}
+.my_dropdown_products .dropdown-menu ul {
+  list-style: none;
+  padding: 0;
+}
+.my_dropdown_products .dropdown_menu_inner {
+  display: flex !important;
+}
+.my_dropdown_products .dropdown_menu_inner ul {
+  padding: 1rem;
+}
+.my_dropdown_products .dropdown_menu_inner ul li p {
+  margin-bottom: 5px;
+  color: #b3aba4;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.my_dropdown_products .menu_title {
+  color: #000;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 1rem;
+}
+.my_dropdown_products .dropdown-item {
+  padding: 0;
+  color: #000;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 250% */
+  letter-spacing: 0.2px;
+  transition: all 0.3s ease-in-out;
+}
+.my_dropdown_products .dropdown-item:hover {
+  color: #b2674c;
+}
+.my_dropdown_products .dropdown-item:focus,
+.my_dropdown_products .dropdown-item:hover {
+  background-color: transparent;
+}
+.my_dropdown_products .menu_ul_div {
+  width: 15rem;
+}
+.my_dropdown_products .ul_2 {
+  margin-top: 1.9rem;
+}
+.my_dropdown_products .ul_color {
+  background: #fffdf8;
+}
+.my_dropdown_products label {
+  background-color: #000000;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.my_dropdown_products .color_li {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 10rem;
+}
+.my_dropdown_products .color_li_a {
+  align-self: flex-start;
+  flex-direction: row;
+  min-width: 21%;
+  margin-bottom: 10px;
+  margin-top: 6px;
+}
+
 .screen-darken {
   height: 100%;
   width: 0%;
@@ -2607,4 +2688,28 @@ a {
   max-height: 35rem;
   overflow: scroll;
   height: auto;
+}
+
+.search-list-box {
+  width: inherit;
+  position: absolute;
+  top: 2.5rem;
+  background: white;
+  border-radius: 5px;
+  padding: 10px;
+  padding-top: 1rem;
+  z-index: 9999;
+  display: none;
+}
+
+.search-list-box2 {
+  width: inherit;
+  position: absolute;
+  top: 2.5rem;
+  background: white;
+  border-radius: 5px;
+  padding: 10px;
+  padding-top: 1rem;
+  z-index: 9999;
+  display: none;
 }/*# sourceMappingURL=index.css.map */

@@ -55,21 +55,204 @@
                           <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'about.php' ? 'nav-link navbar_nav_activ' : 'nav-link'; ?>" href="about.php">about us </a>
                       </li>
 
-                      <li class="nav-item dropdown my_dropdown d-none d-xxl-block d-xl-block d-lg-block">
-                          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Products
+                      <li class="nav-item dropdown my_dropdown my_dropdown_products d-none d-xxl-block d-xl-block d-lg-block">
+                          <a href="product.php" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Products
                           </a>
-                          <ul class="dropdown-menu fade-up">
-                              <li>
-                                  <a class="dropdown-item" href="product.php">
-                                      <span>Products</span>
-                                  </a>
-                              </li>
-                              <li>
-                                  <a class=" <?php echo basename($_SERVER['PHP_SELF']) == 'ev_chargers.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="ev_chargers.php">
-                                      <span>Demo 2</span>
-                                  </a>
-                              </li>
-                          </ul>
+                          <div class="dropdown-menu fade-up">
+                              <div class="dropdown_menu_inner">
+                                  <div class="menu_ul_div">
+                                      <ul>
+                                          <li>
+                                              <div class="menu_title">ALL PRODUCTS</div>
+                                          </li>
+                                          <li>
+                                              <p>PAPER CARRY BAG</p>
+                                          </li>
+                                          <li>
+                                              <a href="product.php" class="dropdown-item">
+                                                  <span>White Kraft Twisted Paper Handles</span>
+                                              </a>
+                                          </li>
+                                          <li>
+                                              <a class=" <?php echo basename($_SERVER['PHP_SELF']) == 'ev_chargers.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="ev_chargers.php">
+                                                  <span>White Kraft Black Rope Handles</span>
+                                              </a>
+                                          </li>
+                                          <li>
+                                              <a class=" <?php echo basename($_SERVER['PHP_SELF']) == 'ev_chargers.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="ev_chargers.php">
+                                                  <span>Brown Kraft Twisted paper Handles</span>
+                                              </a>
+                                          </li>
+                                          <li>
+                                              <a class=" <?php echo basename($_SERVER['PHP_SELF']) == 'ev_chargers.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="ev_chargers.php">
+                                                  <span>Brown Kraft Black Rope Handles</span>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                      <ul>
+                                          <li>
+                                              <p>Plastic Bags</p>
+                                          </li>
+                                          <li>
+                                              <a href="#" class="dropdown-item">
+                                                  <span>White Plastic bags Die Cut Handles</span>
+                                              </a>
+                                          </li>
+                                          <li>
+                                              <a class=" <?php echo basename($_SERVER['PHP_SELF']) == 'ev_chargers.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="ev_chargers.php">
+                                                  <span>Postal Satchels</span>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                                  <div class="menu_ul_div ul_color">
+                                      <ul class="ul_2">
+                                          <li>
+                                              <p>Coloured Paper Bags</p>
+                                          </li>
+                                          <li class="color_li">
+                                              <a href="#" class="color_li_a">
+                                                  <label style="background-color: #000000;"></label>
+                                              </a>
+                                              <a href="#" class="color_li_a">
+                                                  <label style="background-color: #00FF1A;"></label>
+                                              </a>
+                                              <a href="#" class="color_li_a">
+                                                  <label style="background-color: #10D0FB;"></label>
+                                              </a>
+                                              <a href="#" class="color_li_a">
+                                                  <label style="background-color: #7000FF;"></label>
+                                              </a>
+                                              <a href="#" class="color_li_a">
+                                                  <label style="background-color: #B3ABA4;"></label>
+                                              </a>
+                                              <a href="#" class="color_li_a">
+                                                  <label style="background-color: #FF0000;"></label>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                      <ul>
+                                          <li>
+                                              <p>Plastic Bags</p>
+                                          </li>
+                                          <li>
+                                              <a href="#" class="dropdown-item">
+                                                  <span>White Plastic bags Die Cut Handles</span>
+                                              </a>
+                                          </li>
+                                          <li>
+                                              <a class=" <?php echo basename($_SERVER['PHP_SELF']) == 'ev_chargers.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="ev_chargers.php">
+                                                  <span>Postal Satchels</span>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                                  <div class="menu_ul_div">
+                                      <ul class="ul_2">
+                                          <li>
+                                              <p>Paper Takeaway Bags</p>
+                                          </li>
+                                          <li>
+                                              <a class="dropdown-item">
+                                                  <span>Box Bottom Brown No handles</span>
+                                              </a>
+                                          </li>
+                                          <li>
+                                              <a class=" <?php echo basename($_SERVER['PHP_SELF']) == 'ev_chargers.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="ev_chargers.php">
+                                                  <span>100% Recycled Paper Bags No</span>
+                                              </a>
+                                          </li>
+                                          <li>
+                                              <a class=" <?php echo basename($_SERVER['PHP_SELF']) == 'ev_chargers.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="ev_chargers.php">
+                                                  <span>Handles</span>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                      <ul>
+                                          <li>
+                                              <p>Gloss Laminated Paper Bags</p>
+                                          </li>
+                                          <li class="color_li">
+                                              <a href="#" class="color_li_a">
+                                                  <label style="background-color: #000000;"></label>
+                                              </a>
+                                              <a href="#" class="color_li_a">
+                                                  <label style="background-color: #00FF1A;"></label>
+                                              </a>
+                                              <a href="#" class="color_li_a">
+                                                  <label style="background-color: #10D0FB;"></label>
+                                              </a>
+                                              <a href="#" class="color_li_a">
+                                                  <label style="background-color: #7000FF;"></label>
+                                              </a>
+                                              <a href="#" class="color_li_a">
+                                                  <label style="background-color: #B3ABA4;"></label>
+                                              </a>
+                                              <a href="#" class="color_li_a">
+                                                  <label style="background-color: #FF0000;"></label>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                                  <div class="menu_ul_div ul_color">
+                                      <ul class="ul_2">
+                                          <li>
+                                              <p>Uba Bags</p>
+                                          </li>
+                                          <li>
+                                              <a class="dropdown-item">
+                                                  <span>Box Bottom Twisted Paper Handles</span>
+                                              </a>
+                                          </li>
+                                          <li>
+                                              <a class=" <?php echo basename($_SERVER['PHP_SELF']) == 'ev_chargers.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="ev_chargers.php">
+                                                  <span>Box Bottom Die Cut handles</span>
+                                              </a>
+                                          </li>
+                                          <li>
+                                              <a class=" <?php echo basename($_SERVER['PHP_SELF']) == 'ev_chargers.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="ev_chargers.php">
+                                                  <span>Brown Kraft Flat Folded paper </span>
+                                              </a>
+                                          </li>
+                                          <li>
+                                              <a class=" <?php echo basename($_SERVER['PHP_SELF']) == 'ev_chargers.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="ev_chargers.php">
+                                                  <span>Handles</span>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                      <ul>
+                                          <li>
+                                              <p>Wine Bags</p>
+                                          </li>
+                                          <li>
+                                              <a class="dropdown-item">
+                                                  <span>White Kraft Twisted Paper Handles</span>
+                                              </a>
+                                          </li>
+                                          <li>
+                                              <a class=" <?php echo basename($_SERVER['PHP_SELF']) == 'ev_chargers.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="ev_chargers.php">
+                                                  <span>White Kraft Die Cut Handles</span>
+                                              </a>
+                                          </li>
+                                          <li>
+                                              <a class=" <?php echo basename($_SERVER['PHP_SELF']) == 'ev_chargers.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="ev_chargers.php">
+                                                  <span>Brown Kraft Cotton Ribbon Handles</span>
+                                              </a>
+                                          </li>
+                                          <li>
+                                              <a class=" <?php echo basename($_SERVER['PHP_SELF']) == 'ev_chargers.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="ev_chargers.php">
+                                                  <span>Brown Kraft Pre Printed</span>
+                                              </a>
+                                          </li>
+                                          <li>
+                                              <a class=" <?php echo basename($_SERVER['PHP_SELF']) == 'ev_chargers.php' ? 'dropdown-item drowpdown_text' : 'dropdown-item'; ?>" href="ev_chargers.php">
+                                                  <span>Matte Laminated Ribbon Handles</span>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
                       </li>
                       <li class="nav-item dropdown my_dropdown mobile_Products  d-block d-xxl-none d-xl-none d-lg-none">
                           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Products

@@ -10,7 +10,7 @@
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-12">
                         <div class="modal_first_top_text_div">
                             <span>More Options & Customization for 5000+ Orders <a data-bs-target="#exampleModalToggle3" data-bs-toggle="modal" data-bs-dismiss="modal">click here</a></span>
-                            <h3>GET A QUOTE <span>Printing limitations may apply <i class="fas fa-question"></i></span></h3>
+                            <h3>GET A QUOTE <span>Printing limitations may apply <i class="fas fa-question" data-bs-toggle="tooltip" data-bs-placement="bottom" title="We cannot match PMS colours on brown kraft bags. If you choose this option, PMS colours will be printed 20% darker and/or different shade of colour. We can offer matched PMS on brown kraft bags.  For pricing please contact us for more info."></i></span></h3>
                             <input type="email" class="form-control" placeholder="enter Your email address*">
                         </div>
                         <div class="form-check modal_first_top_check_div mt-3 mb-3">
@@ -60,7 +60,7 @@
                                     <div class="form-check modal_first_top_check_div">
                                         <input class="form-check-input" type="checkbox" value="" id="3">
                                         <label class="form-check-label" for="3">
-                                            CMYK <i class="fas fa-question"></i>
+                                            CMYK <i class="fas fa-question" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Lorem ipsum dolor sit amet consectetur. Malesuada porta pellentesque elit at pretium dolor tempor lacus in. Lobortis eget mauris et sagittis ultrices interdum. Blandit urna morbi nulla egestas justo. Justo sagittis tellus fermentum sodales. Id netus."></i>
                                         </label>
                                     </div>
                                 </div>
@@ -268,7 +268,7 @@
                             <div class="modal_2_div_inner modal_2_div_inner_new">
                                 <label>thickness</label>
                                 <input type="text" class="form-control" placeholder="postcode">
-                                <p>GSM <i class="fas fa-question"></i></p>
+                                <p>GSM <i class="fas fa-question" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime ipsa error aspernatur temporibus deserunt itaque consequatur, in, est esse mollitia soluta ad, cupiditate praesentium! Eos quo non aperiam sapiente possimus? "></i></p>
                             </div>
                         </div>
                         <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
@@ -383,8 +383,13 @@
         <h2>Find Your Perfect Bags and Printing Solutions</h2>
         <div class="find_perfect_bags_input_div_top">
             <div class="find_perfect_bags_input_div">
-                <input type="text" class="form-control" placeholder="Find a Product">
+                <input type="text" id="btn_search_box2" class="form-control" placeholder="Find a Product">
                 <img src="img/searchIcon.svg" alt="search icon">
+                <div class="search-list-box2">
+                    <div class="search-items-list2">
+                        <a href="./">Product name</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -510,6 +515,26 @@
     }
 
     window.addEventListener('resize', slideImage);
+</script>
+<!--  search-list-box-->
+<script>
+    $("#btn_search_box2").on("input", function() {
+        let _this = $(this);
+        if ($(this).val().trim().length >= 1) {
+            $(".search-list-box2").css("display", "block");
+        } else {
+            $(".search-list-box2").css("display", "none");
+        }
+    });
+
+    $(document).ready(function() {
+        const myDiv = $('.search-list-box2');
+        $(document).on('click', function(event) {
+            if (!myDiv.is(event.target) && myDiv.has(event.target).length === 0) {
+                myDiv.hide();
+            }
+        });
+    });
 </script>
 <!-- ausbag js end -->
 </body>

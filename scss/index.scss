@@ -106,6 +106,91 @@ a {
 }
 // top nav end
 // nav
+.my_dropdown_products {
+  .dropdown-menu {
+    padding: 0;
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+  }
+  .dropdown_menu_inner {
+    display: flex !important;
+    ul {
+      padding: 1rem;
+      li {
+        p {
+          margin-bottom: 5px;
+          color: #b3aba4;
+          font-family: Poppins;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+      }
+    }
+  }
+  .menu_title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 1rem;
+  }
+  .dropdown-item {
+    padding: 0;
+    color: #000;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 250% */
+    letter-spacing: 0.2px;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      color: #b2674c;
+    }
+  }
+  .dropdown-item:focus,
+  .dropdown-item:hover {
+    background-color: transparent;
+  }
+  .menu_ul_div {
+    width: 15rem;
+  }
+  .ul_2 {
+    margin-top: 1.9rem;
+  }
+  .ul_color {
+    background: #fffdf8;
+  }
+  label {
+    background-color: #000000;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .color_li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 10rem;
+  }
+  .color_li_a {
+    align-self: flex-start;
+    flex-direction: row;
+    min-width: 21%;
+    margin-bottom: 10px;
+    margin-top: 6px;
+  }
+}
+//
 .screen-darken {
   height: 100%;
   width: 0%;
@@ -2541,3 +2626,25 @@ a {
   height: auto;
 }
 // text modal end
+.search-list-box {
+  width: inherit;
+  position: absolute;
+  top: 2.5rem;
+  background: white;
+  border-radius: 5px;
+  padding: 10px;
+  padding-top: 1rem;
+  z-index: 9999;
+  display: none;
+}
+.search-list-box2 {
+  width: inherit;
+  position: absolute;
+  top: 2.5rem;
+  background: white;
+  border-radius: 5px;
+  padding: 10px;
+  padding-top: 1rem;
+  z-index: 9999;
+  display: none;
+}

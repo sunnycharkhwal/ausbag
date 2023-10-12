@@ -924,6 +924,11 @@
   }
 }
 @media (min-width: 1024px) {
+  .my_dropdown_products {
+    .dropdown-menu {
+      left: -10rem;
+    }
+  }
   .progress_all_tabel_tabel2 {
     display: block;
     overflow-x: auto;
@@ -1268,6 +1273,11 @@
   }
 }
 @media (min-width: 1440px) {
+  .my_dropdown_products {
+    .dropdown-menu {
+      left: unset;
+    }
+  }
   .progress_all_tabel_tabel2 {
     display: table;
     overflow-x: auto;
